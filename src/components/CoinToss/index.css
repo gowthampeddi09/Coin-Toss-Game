@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.coin-toss-game-container {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-game-card {
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 42px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-heading {
+  font-family: 'Roboto';
+  color: #a35200;
+  font-size: 43px;
+  font-weight: 780;
+}
+
+.head-or-tail-text {
+  color: #334155;
+  font-size: 26px;
+}
+
+.coin {
+  height: 195px;
+  width: 195px;
+  margin: 20px;
+}
+
+.toss-coin-btn {
+  background-color: #f9d423;
+  border-radius: 11px;
+  height: 26px;
+  width: 110px;
+}
+
+.toss-information-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.toss-information {
+  font-size: 19px;
+  color: #475569;
+  margin-right: 17px;
+}
